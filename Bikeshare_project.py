@@ -15,7 +15,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 
-def get_filters():
+def get_filter_data():
     """
     The get_filters function asks a user to specify a city, month, and day to analyze.
 
@@ -225,7 +225,7 @@ def show_data(df1):
 
 def main():
     while True:
-        city, month, day, filter_data = get_filters()
+        city, month, day, filter_data = get_filter_data()
         df = load_data(city, month, day, filter_data)
         df1 = pd.read_csv(CITY_DATA[city])
         
