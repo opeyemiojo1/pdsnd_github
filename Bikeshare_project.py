@@ -15,7 +15,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 
-def get_filters():
+def get_filter_data():
     """
     The get_filters function asks a user to specify a city, month, and day to analyze.
 
@@ -204,7 +204,7 @@ def user_stats(df):
     print('-'*40)
         
 
-def show_data(df1):
+def view_data(df1):
     """ Displays individual data based on user's choice"""
     
     # request from users if they would like to view the raw data
@@ -225,7 +225,7 @@ def show_data(df1):
 
 def main():
     while True:
-        city, month, day, filter_data = get_filters()
+        city, month, day, filter_data = get_filter_data()
         df = load_data(city, month, day, filter_data)
         df1 = pd.read_csv(CITY_DATA[city])
         
@@ -234,7 +234,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        show_data(df1)
+        view_data(df1)
         
         # code to restart the project
         restart = input('\nWould you like to restart? Enter yes or no.\n')
