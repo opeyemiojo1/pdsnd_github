@@ -2,15 +2,22 @@
 
 ### Date created
 * README file was created 7th October 2023
+* The project was created 30th September 2023
 
 ### Project Title
-Explore US Bikeshare data 
+_Exploring US Bikeshare data_ 
 
 ### Description
-In this project, i made use of Python to explore data related to bike share systems for three major cities in the United States: Chicago, New York City, and Washington.
+In this project, i made use of Python to explore data related to bike share systems for three major cities in the United States: **Chicago**, **New York City**, and **Washington**.
 
 ### Files used
-chicago.csv, new_york_city.csv, washington.csv
+* chicago.csv
+* new_york_city.csv
+* washington.csv
+
+### software needed
+- Python 3.10
+- Anaconda
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
