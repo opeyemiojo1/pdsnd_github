@@ -20,5 +20,7 @@ In this project, i made use of Python to explore data related to bike share syst
 - Anaconda
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Below are a few resource links that proved helpful.
+* [The Udacity git style guide](https://udacity.github.io/git-styleguide/) provided appropriate format types to the commit messages.
+* The Blog [Naming convention](https://deepsource.io/blog/git-branch-naming-conventions/) helped in understanding best practices in naming git branches.
 
